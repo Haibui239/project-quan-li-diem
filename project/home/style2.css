@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+i {
+    cursor: pointer;
+}
+li {
+    list-style: none;
+}
+:root {
+    --menu-color : #404E67;
+    --box-red : #FE5D70;
+    --box-blue : #8FBDD3;
+    --box-pink : #E78EA9;
+    --box-orange : #FE9365;
+    --box-green : #0AC282;
+    --box-brown : #AD8B73;
+    --text-color : #dcdcdc;
+    --text-menu-color : #666;
+    --text-user-color : #353c4e;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.width-max {
+    width: 100%;
+}
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.center-row {
+    margin: auto;
+}
+.block {
+    display: block;
+}
+.p-relative {
+    position: relative;
+}
+.p-absolute {
+    position: absolute;
+}
+.shadow {
+    box-shadow: 0 2px 30px 6px rgb(0 0 0 / 10%);
+}
+
+.d-block {
+    display: block !important;
+}
